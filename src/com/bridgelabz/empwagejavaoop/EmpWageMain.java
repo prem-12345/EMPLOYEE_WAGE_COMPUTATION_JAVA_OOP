@@ -5,9 +5,8 @@ public class EmpWageMain {
 
         /* WELCOME TO EMPLOYEE WAGE COMPUTATION OOP */
 
-        EmpWageOop empPresentAbsent = new EmpWageOop();
-        empPresentAbsent.empPresentOrAbsent();
-
+         EmpWageOop empWageDaily = new EmpWageOop();
+         empWageDaily.dailyEmpWage();
 
     }
 }
