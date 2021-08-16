@@ -5,8 +5,9 @@ public class EmpWageMain {
 
         /* WELCOME TO EMPLOYEE WAGE COMPUTATION OOP */
 
-         EmpWageOop empWageDaily = new EmpWageOop();
-         empWageDaily.dailyEmpWage();
+        EmpWageOop addPart = new EmpWageOop();
+        addPart.addPartTime();
+
 
     }
 }

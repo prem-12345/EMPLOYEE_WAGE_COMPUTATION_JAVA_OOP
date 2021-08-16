@@ -51,5 +51,30 @@ public class EmpWageOop {
 
     }
 
+    public static int addPartTime() {
+
+        /* UC3 ADD PART TIME EMPLOYEE AND WAGE */
+
+        Random random = new Random();
+        int empCheck = random.nextInt(3);
+
+        if (empCheck == is_Absent) {
+            System.out.println("Employee is Absent");
+            emp_Hrs = 0;
+
+        } else if (empCheck == IS_FULL_TIME) {
+            System.out.println("Employee is Full time");
+            emp_Hrs = 8;
+
+        } else {
+            System.out.println("Employee is Part time");
+            emp_Hrs = 4;
+
+        }
+        emp_Wage = (EMP_RATE_PER_HR * emp_Hrs);
+        System.out.println(emp_Wage);
+        return emp_Wage;
+
+    }
 
 }
