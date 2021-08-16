@@ -8,6 +8,7 @@ public class EmpWageOop {
     public static final int IS_FULL_TIME = 1;
     public static final int IS_PART_TIME = 2;
     public static final int EMP_RATE_PER_HR = 20;
+    public static final int NUM_OF_DAYS=20;
 
     public static int emp_Hrs = 0;
     public static int emp_Wage = 0;
@@ -74,6 +75,23 @@ public class EmpWageOop {
         emp_Wage = (EMP_RATE_PER_HR * emp_Hrs);
         System.out.println(emp_Wage);
         return emp_Wage;
+
+    }
+
+    public static void twentyDaysWage(){
+
+        /* UC4 CALCULATE WAGES FOR MONTH */
+
+        int total_Emp_Wage = 0;
+        int day = 0;
+
+        for ( day=0;day<NUM_OF_DAYS;day++ ){
+
+            addPartTime();
+            total_Emp_Wage = total_Emp_Wage + addPartTime();
+
+        }
+        System.out.println(total_Emp_Wage);
 
     }
 

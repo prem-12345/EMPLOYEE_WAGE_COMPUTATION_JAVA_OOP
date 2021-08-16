@@ -5,8 +5,8 @@ public class EmpWageMain {
 
         /* WELCOME TO EMPLOYEE WAGE COMPUTATION OOP */
 
-        EmpWageOop addPart = new EmpWageOop();
-        addPart.addPartTime();
+        EmpWageOop twenty = new EmpWageOop();
+        twenty.twentyDaysWage();
 
 
     }
