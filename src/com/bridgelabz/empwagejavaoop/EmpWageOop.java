@@ -9,6 +9,8 @@ public class EmpWageOop {
     public static final int IS_PART_TIME = 2;
     public static final int EMP_RATE_PER_HR = 20;
     public static final int NUM_OF_DAYS=20;
+    public static final int TOTAL_WORKING_HRS=100;
+
 
     public static int emp_Hrs = 0;
     public static int emp_Wage = 0;
@@ -94,5 +96,41 @@ public class EmpWageOop {
         System.out.println(total_Emp_Wage);
 
     }
+
+    public static void conditionOfHrs(){
+
+        /* UC5 CALCULATE WAGES TILL THE CONDITION REACHED 100 HRS AND 20 DAYS */
+
+        int totalEmpHrs=0;
+        int totalWorkingDays=0;
+
+        while( totalEmpHrs <= TOTAL_WORKING_HRS && totalWorkingDays <  NUM_OF_DAYS ){
+
+            totalWorkingDays++;
+
+            Random random = new Random();
+            int empCheck = random.nextInt(3);
+
+            if (empCheck == is_Absent) {
+                System.out.println("Employee is Absent");
+                emp_Hrs = 0;
+
+            } else if (empCheck == IS_FULL_TIME) {
+                System.out.println("Employee is Full time");
+                emp_Hrs = 8;
+
+            } else {
+                System.out.println("Employee is Part time");
+                emp_Hrs = 4;
+
+            }totalEmpHrs = totalEmpHrs + emp_Hrs;
+            System.out.println( " Days " + totalWorkingDays + " Emp hr " + totalEmpHrs );
+
+        }
+        int totalEmployeeWage=(totalEmpHrs*EMP_RATE_PER_HR);
+        System.out.println("Total Employee Wage:"+totalEmployeeWage);
+
+    }
+
 
 }

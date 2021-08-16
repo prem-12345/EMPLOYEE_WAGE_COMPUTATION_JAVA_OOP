@@ -5,8 +5,8 @@ public class EmpWageMain {
 
         /* WELCOME TO EMPLOYEE WAGE COMPUTATION OOP */
 
-        EmpWageOop twenty = new EmpWageOop();
-        twenty.twentyDaysWage();
+        EmpWageOop condition = new EmpWageOop();
+        condition.conditionOfHrs();
 
 
     }
