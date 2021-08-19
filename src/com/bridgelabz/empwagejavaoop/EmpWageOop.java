@@ -1,7 +1,14 @@
 package com.bridgelabz.empwagejavaoop;
 
-import java.util.Random;
+/**
+ * UC1 CHECK EMPLOYEE PRESENT OR ABSENT
+ *
+ * @author prem
+ * @version 9.1
+ * @since 19/08/2021
+ */
 
+import java.util.Random;
 public class EmpWageOop {
 
     public static final int is_Absent = 0;
