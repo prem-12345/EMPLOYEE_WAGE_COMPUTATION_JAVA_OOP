@@ -1,7 +1,7 @@
 package com.bridgelabz.empwagejavaoop;
 
-import java.util.Random;
 
+import java.util.Random;
 public class EmpWageOop {
 
     public static final int is_Absent = 0;
@@ -31,7 +31,14 @@ public class EmpWageOop {
 
     public static boolean dailyEmpWage() {
 
-        /* UC2 CALCULATE DAILY EMPLOYEE WAGES */
+        /**
+         * UC2 CALCULATE DAILY EMPLOYEE WAGES
+         *
+         * @author prem
+         * @version 9.2
+         * @since 19/08/2021
+         */
+
 
         boolean status;
 
