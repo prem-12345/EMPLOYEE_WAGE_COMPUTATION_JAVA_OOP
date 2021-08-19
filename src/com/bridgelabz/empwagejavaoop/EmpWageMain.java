@@ -5,9 +5,8 @@ public class EmpWageMain {
 
         /* WELCOME TO EMPLOYEE WAGE COMPUTATION OOP */
 
-        EmpWageOop condition = new EmpWageOop();
-        condition.conditionOfHrs();
-
+        EmployeeWageClassMethod classmethod = new EmployeeWageClassMethod();
+        classmethod.computeEmployeeWage();
 
     }
 }
