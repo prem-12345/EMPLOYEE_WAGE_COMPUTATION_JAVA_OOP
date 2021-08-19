@@ -80,7 +80,13 @@ public class EmpWageOop {
 
     public static void twentyDaysWage(){
 
-        /* UC4 CALCULATE WAGES FOR MONTH */
+        /**
+         * UC4 CALCULATE WAGES FOR MONTH
+         *
+         * @author prem
+         * @version 9.4
+         * @since 19/08/2021
+         */
 
         int total_Emp_Wage = 0;
         int day = 0;
