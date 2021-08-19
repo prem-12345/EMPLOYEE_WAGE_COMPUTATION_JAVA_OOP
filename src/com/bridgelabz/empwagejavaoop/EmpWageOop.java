@@ -53,7 +53,13 @@ public class EmpWageOop {
 
     public static int addPartTime() {
 
-        /* UC3 ADD PART TIME EMPLOYEE AND WAGE */
+        /**
+         * UC3 ADD PART TIME EMPLOYEE AND WAGE
+         *
+         * @author prem
+         * @version 9.3
+         * @since 19/08/2021
+         */
 
         Random random = new Random();
         int empCheck = random.nextInt(3);
