@@ -5,8 +5,6 @@ public class EmpWageMain {
 
         /* WELCOME TO EMPLOYEE WAGE COMPUTATION OOP */
 
-        EmployeeWageClassMethod classmethod = new EmployeeWageClassMethod();
-        classmethod.computeEmployeeWage();
-
     }
+
 }
