@@ -99,7 +99,13 @@ public class EmpWageOop {
 
     public static void conditionOfHrs(){
 
-        /* UC5 CALCULATE WAGES TILL THE CONDITION REACHED 100 HRS AND 20 DAYS */
+        /**
+         *UC5 CALCULATE WAGES TILL THE CONDITION REACHED 100 HRS AND 20 DAYS
+         *
+         * @author prem
+         * @version 9.5
+         * @since 19/08/2021
+         */
 
         int totalEmpHrs=0;
         int totalWorkingDays=0;
